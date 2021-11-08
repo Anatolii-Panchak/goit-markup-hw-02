@@ -214,6 +214,11 @@ body {
   color: #ffffff99;
 }
 
+.footer-mail:focus,
+.footer-mail:hover {
+  color: var(--accent-color);
+}
+
 .footer-tel {
   font-style: normal;
   font-weight: 400;
@@ -221,6 +226,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff99;
+}
+
+.footer-tel:focus,
+.footer-tel:hover {
+  color: var(--accent-color);
 }
 
 /* --------------PORTFOLIO--------------- */
@@ -237,6 +247,10 @@ body {
 .filter-button-item:focus,
 .filter-button-item:hover {
   color: #ffffff;
+}
+
+.filter-button-item {
+  cursor: pointer;
 }
 
 .portfolio-title {
