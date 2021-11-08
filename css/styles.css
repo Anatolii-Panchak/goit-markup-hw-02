@@ -236,6 +236,11 @@ body {
   color: var(--second-title-color);
 }
 
+.filter-button-item:focus,
+.filter-button-item:hover {
+  color: #ffffff;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
