@@ -6,6 +6,9 @@
   --main-btn-color: #fff;
   --second-btn-color: #212121;
   --heder-text-color: #212121;
+  --main-logo-color: #2196f3;
+  --second-logo-color: #000000;
+  --third-logo-color: #ffffff;
 }
 
 body {
@@ -31,17 +34,19 @@ body {
   overflow: hidden;
 }
 
+/* --------------------HEDER------------------------- */
+
 .heder-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-logo-color);
 }
 
 .logo-black {
-  color: #000000;
+  color: var(--second-logo-color);
 }
 
 .heder-link {
@@ -50,7 +55,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--heder-text-color);
 }
 
 .heder-link:hover,
@@ -89,7 +94,7 @@ body {
 }
 
 .hero-title {
-  background-color: var(--main-text-color);
+  background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -113,7 +118,9 @@ body {
 
 .hero-btn {
   background-color: #2196f3;
+  cursor: pointer;
 }
+
 /* --------------------ABOUT----------------- */
 
 .about-title {
@@ -126,7 +133,6 @@ body {
 }
 
 .about-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -164,7 +170,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -175,7 +180,7 @@ body {
 /* ----------------------FOOTER----------------------- */
 
 .footer {
-  background-color: grey;
+  background-color: #2f303a;
 }
 
 .footer-logo {
@@ -184,19 +189,19 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-logo-color);
 }
 
 .logo-white {
-  color: #ffffff;
+  color: var(--third-logo-color);
 }
 
 .footer-contacts {
   font-family: sans-serif;
+  font-style: normal;
 }
 
 .footer-map {
-  font-style: normal;
   font-family: inherit;
   font-weight: 400;
   font-size: 14px;
@@ -206,7 +211,6 @@ body {
 }
 
 .footer-mail {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -236,6 +240,7 @@ body {
 /* --------------PORTFOLIO--------------- */
 
 .filter-button-item {
+  background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -262,7 +267,6 @@ body {
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
